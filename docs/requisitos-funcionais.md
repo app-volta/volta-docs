@@ -2,7 +2,7 @@
 
 ## 1. Objetivo
 
-Este documento apresenta os requisitos do sistema VOLTA e os relaciona aos casos de uso do [diagrama de casos de uso](eqs/png/Diagramas-volta-diagrama-casos-uso.drawio.png). A lista segue o Jira do projeto (épico **LDRE-6 — Levantamento de Requisitos**), de onde vêm os identificadores e as chaves das tarefas.
+Este documento apresenta os requisitos do sistema VOLTA e os relaciona aos casos de uso do [diagrama de casos de uso](diagramas/png/Diagramas-volta-diagrama-casos-uso.drawio.png). A lista segue o Jira do projeto (épico **LDRE-6 — Levantamento de Requisitos**), de onde vêm os identificadores e as chaves das tarefas.
 
 Jira: https://carlosvolta.atlassian.net/jira
 

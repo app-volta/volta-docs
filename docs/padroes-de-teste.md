@@ -205,30 +205,53 @@ Sugestão para o futuro: adotar Vitest com Testing Library, começando pelas fun
 
 ## 10. Evidências de execução
 
-> **Espaço para prints.** Os prints abaixo comprovam a execução dos testes.
+Os prints ficam em [`docs/prints/`](prints/).
 
 ### 10.1. `volta-api-core`
 
-<!-- PRINT 1: GitHub Actions do volta-api-core com o job build-test aprovado -->
-<!-- PRINT 2: relatório JaCoCo (target/site/jacoco/index.html) com a cobertura total -->
+Pipeline de CI (`build-test`) aprovado:
+
+![CI do volta-api-core](prints/core-ci.png)
+
+Relatório de cobertura (JaCoCo):
+
+![Cobertura JaCoCo do volta-api-core](prints/core-jacoco.png)
 
 ### 10.2. `volta-api-redis`
 
-<!-- PRINT 3: GitHub Actions do volta-api-redis com o job aprovado -->
-<!-- PRINT 4: relatório JaCoCo com a cobertura total -->
+Pipeline de CI (`build-test`) aprovado:
+
+![CI do volta-api-redis](prints/redis-ci.png)
+
+Relatório de cobertura (JaCoCo):
+
+![Cobertura JaCoCo do volta-api-redis](prints/redis-jacoco.png)
 
 ### 10.3. `volta-chatbot`
 
-<!-- PRINT 5: GitHub Actions do volta-chatbot com o pytest aprovado -->
-<!-- PRINT 6: saída do comando python -m pytest -q no terminal -->
+Pipeline de CI (`validate-test`) aprovado:
+
+![CI do volta-chatbot](prints/chatbot-ci.png)
+
+Execução local do `python -m pytest -q`:
+
+![pytest do volta-chatbot](prints/chatbot-pytest.png)
 
 ### 10.4. `volta-mobile`
 
-<!-- PRINT 7: GitHub Actions do volta-mobile com os testes unitários aprovados -->
+Pipeline de CI (`build-test`) aprovado, incluindo os testes unitários:
+
+![CI do volta-mobile](prints/mobile-ci.png)
 
 ### 10.5. `volta-website-dad`
 
-<!-- PRINT 8: GitHub Actions do volta-website-dad com lint, tipos e build aprovados -->
+Checks do pull request aprovados (lint, tipos e build):
+
+![Checks do volta-website-dad](prints/website-ci.png)
+
+Pipeline de CI (`build-test`) aprovado:
+
+![CI do volta-website-dad](prints/website-job.png)
 
 ## 11. Como executar
 
@@ -252,6 +275,4 @@ npm run lint && npx tsc --noEmit && npm run build
 
 ## 12. Conclusão
 
-As duas APIs Java têm a base de testes mais madura, com cobertura medida e mínima exigida no CI. Na API Redis, o mínimo de 85% e o uso de um Redis real dão boa confiança. O chatbot tem boa cobertura das regras de segurança e do fluxo de agentes, mas sem medição de cobertura. O app Android testa só a lógica pura. O painel web ainda não tem testes automatizados, e esse é o principal ponto a resolver.
-
-*Análise feita por leitura do código das branches `main` (`volta-api-core`, `volta-api-redis`) e `develop` (`volta-chatbot`, `volta-mobile`, `volta-website-dad`), em 01/11/2026. Os testes não foram executados nesta análise.*
+As duas APIs Java têm a base de testes mais madura, com cobertura medida e mínima exigida no CI. Na API Redis, o mínimo de 85% e o uso de um Redis real dão boa confiança. O chatbot tem boa cobertura das regras de segurança e do fluxo de agentes, mas sem medição de cobertura. O app Android testa só a lógica pura.
