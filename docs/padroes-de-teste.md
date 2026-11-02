@@ -66,53 +66,53 @@ Os números são contagem do código: cerca de 210 casos de teste em 14 arquivos
 
 ## 10. Evidências de execução
 
-Os prints ficam em [`docs/prints/`](prints/).
+Os prints ficam em [`docs/prints/tdd/`](prints/tdd/).
 
 ### 10.1. `volta-api-core`
 
 Pipeline de CI (`build-test`) aprovado:
 
-![CI do volta-api-core](prints/core-ci.png)
+![CI do volta-api-core](prints/tdd/core-ci.png)
 
 Relatório de cobertura (JaCoCo):
 
-![Cobertura JaCoCo do volta-api-core](prints/core-jacoco.png)
+![Cobertura JaCoCo do volta-api-core](prints/tdd/core-jacoco.png)
 
 ### 10.2. `volta-api-redis`
 
 Pipeline de CI (`build-test`) aprovado:
 
-![CI do volta-api-redis](prints/redis-ci.png)
+![CI do volta-api-redis](prints/tdd/redis-ci.png)
 
 Relatório de cobertura (JaCoCo):
 
-![Cobertura JaCoCo do volta-api-redis](prints/redis-jacoco.png)
+![Cobertura JaCoCo do volta-api-redis](prints/tdd/redis-jacoco.png)
 
 ### 10.3. `volta-chatbot`
 
 Pipeline de CI (`validate-test`) aprovado:
 
-![CI do volta-chatbot](prints/chatbot-ci.png)
+![CI do volta-chatbot](prints/tdd/chatbot-ci.png)
 
 Execução local do `python -m pytest -q`:
 
-![pytest do volta-chatbot](prints/chatbot-pytest.png)
+![pytest do volta-chatbot](prints/tdd/chatbot-pytest.png)
 
 ### 10.4. `volta-mobile`
 
 Pipeline de CI (`build-test`) aprovado, incluindo os testes unitários:
 
-![CI do volta-mobile](prints/mobile-ci.png)
+![CI do volta-mobile](prints/tdd/mobile-ci.png)
 
 ### 10.5. `volta-website-dad`
 
 Pipeline de CI (`build-test`) aprovado:
 
-![CI do volta-website-dad](prints/website-job.png)
+![CI do volta-website-dad](prints/tdd/website-job.png)
 
 Execução local do `npm test`:
 
-![npm test no volta-website-dad](prints/website-npm-test.png)
+![npm test no volta-website-dad](prints/tdd/website-npm-test.png)
 
 ## 11. Como executar
 

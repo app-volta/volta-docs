@@ -51,17 +51,17 @@ Os campos acima correspondem aos documentos observados nas evidências. Outros c
 
 A persistência foi verificada por meio da visualização dos documentos armazenados no MongoDB Atlas.
 
-![1793638444096](image/banco-de-dados/1793638444096.png)
+![chat_messages](prints/banco-de-dados/chat_messages.jpg)
 
-![1793638456549](image/banco-de-dados/1793638456549.png)
+![mensagem_requisicao](prints/banco-de-dados/mensagem_requisicao.jpg)
 
 **Figura 1 — Mensagens persistidas na collection `chat_messages`.**
 
-![1793638417354](image/banco-de-dados/1793638417354.png)
+![mensagem_chatbot](prints/banco-de-dados/mensagem_chatbot.jpg)
 
 **Figura 2 — Registros armazenados na collection `sessions`.**
 
-![1793638408950](image/banco-de-dados/1793638408950.png)
+![sessions](prints/banco-de-dados/sessions.jpg)
 
 ### 3.4. Validação
 
@@ -79,7 +79,7 @@ A conexão e a disponibilidade do componente foram verificadas durante os testes
 
 **Figura 3 — Verificação do endpoint de saúde da aplicação.**
 
-![1793638395454](image/banco-de-dados/1793638395454.png)
+![conexao_redis](prints/banco-de-dados/conexao_redis.jpg)
 
 O endpoint `/actuator/health` retornou o status HTTP `200` e apresentou o estado geral `UP`. Essa resposta demonstra que o endpoint de saúde respondeu corretamente, mas, isoladamente, não comprova a conexão com o Redis.
 
@@ -89,9 +89,9 @@ Esta seção será complementada com a evidência da API executando a funcionali
 
 **Figura 4 — Resultado do ranking retornado pela API.**
 
-![1793638310503](image/banco-de-dados/1793638310503.png)
+![ranking_cooperativas](prints/banco-de-dados/ranking_cooperativas.jpg)
 
-![1793638296163](image/banco-de-dados/1793638296163.png)
+![ranking_swagger](prints/banco-de-dados/ranking_swagger.jpg)
 
 ### 4.4. Validação
 
@@ -125,16 +125,14 @@ Foram realizadas consultas no ambiente local para verificar os relacionamentos e
 
 **Figura 5 — Evidência das consultas realizadas no protótipo Neo4j.**
 
-![1793638339471](image/banco-de-dados/1793638339471.png)
+![grafos](prints/banco-de-dados/grafos.png)
 
-![1793638351234](image/banco-de-dados/1793638351234.png)
+![consulta_grafo1](prints/banco-de-dados/consulta_grafo1.png)
 
-![1793638358151](image/banco-de-dados/1793638358151.png)
+![consulta_grafo2](prints/banco-de-dados/consulta_grafo2.png)
 
 O protótipo utiliza dados de demonstração e não deve ser interpretado como uma integração sincronizada com o banco relacional PostgreSQL.
 
 ## 6. Considerações finais
 
 Os bancos de dados são utilizados conforme as necessidades específicas dos componentes do VOLTA. As evidências apresentadas registram as estruturas observadas e as validações realizadas, diferenciando a persistência de dados, a disponibilidade dos serviços e o funcionamento das funcionalidades da aplicação.
-
-A documentação deve ser atualizada caso a arquitetura, as integrações ou as responsabilidades dos componentes sejam modificadas.
