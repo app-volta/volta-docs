@@ -236,7 +236,7 @@ Regra do projeto: as telas **nunca** chamam a API diretamente. Tudo passa pela c
 
 - Husky, commitlint e oxlint verificam commits e código.
 - CI no GitHub Actions, Docker com nginx e deploy na Vercel.
-- Não há testes automatizados no repositório.
+- Testes unitários com Vitest (`src/testes/`) rodam no CI. Detalhes em [padroes-de-teste.md](padroes-de-teste.md).
 
 ## 8. Padrões comuns aos repositórios
 
