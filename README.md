@@ -16,7 +16,7 @@ Centralizar a documentação do projeto para facilitar a consulta pelos integran
 | M4   | Diagramas de atividades (registro de ocorrência e gestão de chamado) | [Registro de ocorrência](docs/diagramas/png/Diagramas-volta-registro-de-ocorrencia.drawio.png) · [Gestão de chamado](docs/diagramas/png/Diagramas-volta-gestao-de-chamado.drawio.png) · [Arquivo draw.io](docs/diagramas/uml/Diagramas-volta.drawio)     |
 | M5   | Dinâmica de trabalho e responsáveis da equipe                        | [dinamica-trabalho-equipe.md](docs/dinamica-trabalho-equipe.md)                                                                                                                                                                                            |
 | E1   | Padrões de projeto                                                    | [padrao-de-projeto.md](docs/padrao-de-projeto.md)                                                                                                                                                                                                          |
-| E2   | Padrões de teste                                                      | [padroes-de-teste.md](docs/padroes-de-teste.md) · [Evidências de execução](docs/padroes-de-teste.md#10-evidências-de-execução) · [Prints](docs/prints/)                                                                                              |
+| E2   | Padrões de teste                                                      | [padroes-de-teste.md](docs/padroes-de-teste.md) · [Evidências de execução](docs/padroes-de-teste.md#10-evidências-de-execução) · [Prints](docs/prints/tdd/)                                                                                              |
 
 ## Outros documentos
 
