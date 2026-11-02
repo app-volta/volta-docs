@@ -6,28 +6,23 @@ Repositório destinado à documentação técnica e organizacional do projeto **
 
 Centralizar a documentação do projeto para facilitar a consulta pelos integrantes da equipe, apoiar a validação das funcionalidades e registrar as decisões e atividades realizadas durante o desenvolvimento.
 
-## Organização da documentação
+## Entregas do projeto
 
-Os documentos são organizados por assunto, facilitando a localização das informações relacionadas a cada área do projeto.
+| Item | Entrega                                                                | Referência                                                                                                                                                                                                                                               |
+| ---- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| M1   | Acompanhamento e planejamento do projeto                               | [Jira](https://carlosvolta.atlassian.net/jira)                                                                                                                                                                                                             |
+| M2   | Requisitos funcionais do sistema                                       | [requisitos-funcionais.md](docs/requisitos-funcionais.md)                                                                                                                                                                                                  |
+| M3   | Diagrama de casos de uso                                               | [Imagem](docs/diagramas/png/Diagramas-volta-diagrama-casos-uso.drawio.png) · [Arquivo draw.io](docs/diagramas/uml/Diagramas-volta.drawio) · [Rastreabilidade com os requisitos](docs/requisitos-funcionais.md#5-rastreabilidade-casos-de-uso-e-requisitos) |
+| M4   | Diagramas de atividades (registro de ocorrência e gestão de chamado) | [Registro de ocorrência](docs/diagramas/png/Diagramas-volta-registro-de-ocorrencia.drawio.png) · [Gestão de chamado](docs/diagramas/png/Diagramas-volta-gestao-de-chamado.drawio.png) · [Arquivo draw.io](docs/diagramas/uml/Diagramas-volta.drawio)     |
+| M5   | Dinâmica de trabalho e responsáveis da equipe                        | [dinamica-trabalho-equipe.md](docs/dinamica-trabalho-equipe.md)                                                                                                                                                                                            |
+| E1   | Padrões de projeto                                                    | [padrao-de-projeto.md](docs/padrao-de-projeto.md)                                                                                                                                                                                                          |
+| E2   | Padrões de teste                                                      | [padroes-de-teste.md](docs/padroes-de-teste.md) · [Evidências de execução](docs/padroes-de-teste.md#10-evidências-de-execução) · [Prints](docs/prints/)                                                                                              |
 
-```text
-volta-docs/
-├── README.md
-└── docs/
-    ├── dinamica-trabalho-equipe.md
-    ├── bancos-de-dados.md
-    └── padroes-de-projeto.md
-```
+## Outros documentos
 
-> A estrutura acima é uma proposta inicial. Os arquivos devem ser criados conforme os respectivos documentos forem concluídos.
-
-### Documentos previstos
-
-| Documento                       | Descrição                                                                                                        |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| `dinamica-trabalho-equipe.md` | Apresenta a divisão de responsabilidades, a comunicação, o uso do Jira, as sprints e o fluxo de Pull Requests.  |
-| `bancos-de-dados.md`          | Documenta os bancos de dados utilizados, suas finalidades e as evidências de funcionamento das conexões.         |
-| `padroes-de-projeto.md`       | Registra os padrões de projeto e as práticas identificados nos códigos do VOLTA, com base em evidências reais. |
+| Documento       | Referência                                |
+| --------------- | ------------------------------------------ |
+| Bancos de dados | [banco-de-dados.md](docs/banco-de-dados.md) |
 
 ## Organização e acompanhamento
 
